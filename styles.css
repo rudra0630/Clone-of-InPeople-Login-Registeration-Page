@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Background Video */
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+body {
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 350px;
+    background-color: lightgray;
+    border: 1px solid #c2b5b5;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #4e4545;
+    background-color: #f3eded;
+    border-radius: 5px;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #3897f0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #0c0c0c;
+}
+
+.divider span {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.fb-login {
+    background-color: #4267b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.signup-box {
+    margin-top: 10px;
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+}

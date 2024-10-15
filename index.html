@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InPeople Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- Background Video -->
+     <video autoplay muted loop id="background-video">
+        <source src="INCREDIBLE INDIA.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="login-container">
+        <div class="logo">
+            <img src="logo2.png" alt="InPeople Logo">
+        </div>
+        <div class="login-box">
+            <form action="/login" method="POST">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="divider">
+                <div class="line"></div>
+                <span>OR</span>
+                <div class="line"></div>
+            </div>
+            <button class="fb-login">Log in with Facebook</button>
+        </div>
+        <div class="signup-box">
+            <p>Don't have an account? <a href="index3.html">Sign up</a></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
